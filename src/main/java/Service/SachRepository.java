@@ -94,7 +94,5 @@ public class SachRepository {
         for(Sach sach: list){
             System.out.println(sach.toString());
         }
-        Sach s = sachRepository.getOne("20");
-        System.out.println("getOne"+s.toString());
     }
 }
